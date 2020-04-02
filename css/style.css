@@ -1,19 +1,11 @@
-.cities{
-	fill: #FFA500;
-}
-
-.cities.selected {
-	fill: #FF0000;
-}
-
 .vis-container {
   display: flex;
   flex-wrap: wrap;
 }
 
-.states {
+/*.states {
 	fill: #aaa;
-}
+}*/
 
 #state-borders {
 	fill: none;
@@ -22,5 +14,13 @@
 	stroke-linejoin: round;
 	stroke-linecap: round;
 	pointer-events: none;
+}
+
+.cities {
+	fill: orange;
+}
+
+circle.selected {
+	fill: red;
 }
 
